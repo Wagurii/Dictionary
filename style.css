@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Kanit;
+  background: grey;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid rgb(58, 57, 57);
+  border-radius: 5px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgb(143, 141, 141);
+  box-shadow: 2px 2px 100px 10px rgba(0, 0, 0, 0.2)
+
+}
+
+.dictionary-text {
+  text-align: center;
+  color: rgb(15, 15, 255);
+  font-size: 48px;
+  font-weight: 800;
+
+}
+
+.meaning-container {
+  text-align: center;
+  margin-top: 20px;
+  color:white;
+  
+}
+
+
+#input {
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 2px 2px 10px 1px tomato;
+  width: 100%;
+  max-width: 300px;
+  
+}
+
+#input:hover {
+  border: solid darkviolet;
+}
+
+#input:active {
+  border: solid darkblue;
+}
+
+#search {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(0, 177, 80);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#search:hover {
+  background-color: darkviolet;
+  animation: neon 1s;
+  
+}
+#search:active {
+  background-color: rgb(0, 177, 80);
+}
+@keyframes neon {
+  50%{
+    box-shadow: 2px 2px 20px 8px tomato ;
+  }
+}
+.socials{
+  margin: 15px;
+}
+.facebook{
+  padding-right: 20px;
+}
