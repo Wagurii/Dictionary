@@ -1,10 +1,7 @@
-# Word Definition API
+A simple project to demonstrate how to get word definitions using the [Dictionary API](https://api.dictionaryapi.dev/api/v2/entries/en/<word>
+).
 
-A simple project to demonstrate how to get word definitions using the [Dictionary API]([https://api.dictionaryapi.dev/](https://api.dictionaryapi.dev/api/v2/entries/en/<word>
-)).
-
-To get the definition of the English word "hello", send a request to: [Dictionary API]([[https://api.dictionaryapi.dev/](https://api.dictionaryapi.dev/api/v2/entries/en/<word>](https://api.dictionaryapi.dev/api/v2/entries/en/hello
-)
+To get the definition of the English word "hello", send a request to: [Dictionary API](https://api.dictionaryapi.dev/api/v2/entries/en/<word>](https://api.dictionaryapi.dev/api/v2/entries/en/hello)
 
 
 ## Project Description
